@@ -124,25 +124,21 @@ li a:hover {
     color: white;
     overflow :none;
 }
-#section3 .row {
+.test-container {
     display: flex;
-    flex-wrap: nowrap; /* Prevent stacking */
-    justify-content: space-around; /* Distribute elements evenly */
-    align-items: center;
+    justify-content: space-around; /* Space items evenly */
+    flex-wrap: wrap; /* Allow wrapping if screen is too small */
+    gap: 20px; /* Add spacing between items */
+    text-align: center;
 }
 
-#section3 .col-md-4 {
-    flex: 1; /* Make sure they evenly distribute */
-    max-width: 30%; /* Adjust width */
-    text-align: center; /* Keep text centered */
+.test-item {
+    flex: 1; /* Makes each item flexible */
+    max-width: 30%; /* Restricts width */
 }
 
-#section3 img {
-    width: 100%; /* Make images responsive */
-    max-width: 200px; /* Adjust image size */
+.test-item img {
+    width: 100%; /* Makes image responsive */
+    max-width: 200px; /* Ensures images are not too big */
     height: auto;
-    display: block;
-    margin: 0 auto;
 }
-
-
