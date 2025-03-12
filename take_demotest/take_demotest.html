@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SMARTPrep</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body class="body">    
+
+<script src="javascript.js"></script>
+    <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">SMARTPrep</a>
+    </div>
+      
+    </div>
+  </div>
+</nav>
+   
+    
+<ul>
+        
+        <li><a href="#sectionM" class="active">Maths</a></li>
+        <li><a href="#section1"><input type="checkbox">Question1</a></li>
+        <li><a href="#section2"><input type="checkbox">Question2</a></li>
+        <li><a href="#section3"><input type="checkbox">Question3</a></li>
+        <li><a href="#sectionP" class="active">Physics</a></li>
+        <li><a href="#section4"><input type="checkbox">Question4</a></li>
+        <li><a href="#section5"><input type="checkbox">Question5</a></li>
+        <li><a href="#section6"><input type="checkbox">Question6</a></li>
+        <li><a href="#sectionC" class="active">Chemistry</a></li>
+        <li><a href="#section7" ><input type="checkbox">Question7</a></li>
+        <li><a href="#section8"><input type="checkbox">Question8</a></li>
+        <li><a href="#section9" ><input type="checkbox">Question9</a></li>
+        <li><a href="#section10" ><input type="checkbox">Question10</a></li>
+      </ul>
+    
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+    <center><button type="button" class="btn btn-danger">Demotest</button></center>
+  <h3>INSTRUCTIONS:</h3>
+    <p>1. Each question carries 1 mark.<br>2. No negative marking.<br>3. No time limit.<br>4. The following test has 3 sections namely Maths, Physics and Chemistry.<br>5. The checkboxes at side of each question are merely for indication that you have answered they don't effect your marks.</p>
+    
+<form name="quiz">
+    <div id="sectionM">
+ <div class="container">
+  <h2><span class="label label-primary">Mathematics</span></h2>
+ </div>
+     </div>
+<div id="section1">    
+    1. (&radic;<span style="border-top: 1px solid #000000;">3</span>+i)<sup>100</sup>=2<sup>99</sup>(a+ib), then show that a<sup>2</sup>+b<sup>2</sup> =?<br>
+
+  <input type="radio" name="q1" value="1">1<br>
+  <input type="radio" name="q1" value="2">2<br>
+  <input type="radio" name="q1" value="3">3<br>
+  <input type="radio" name="q1" value="4">4<br>    
+<br>
+    </div>
+    
+<div id="section2">
+2. Find the number of ways in which 5 red balls, 4 black balls can be arranged in a row such that the balls of same color come together?
+<br>
+  <input type="radio" name="q2" value="4!5!">4!5!<br>
+  <input type="radio" name="q2" value="2!4!5!">2!4!5!<br>
+  <input type="radio" name="q2" value="2!4!">2!4!<br>
+  <input type="radio" name="q2" value="2!5!">2!5!<br>
+      <br>
+    </div>
+    
+<div id="section3">    
+    3. A<sup>2</sup>=I, Then A is a?
+<br>
+  <input type="radio" name="q3" value="Idempotent matrix">Idempotent matrix<br>
+  <input type="radio" name="q3" value="Involuntary matrix">Involuntary matrix<br>
+  <input type="radio" name="q3" value="periodic matrix">periodic matrix<br>
+  <input type="radio" name="q3" value="Nilpotent matrix">Nilpotent matrix<br>
+     <br>
+    </div>
+    
+<div class="container">
+    <div id="sectionP">
+  <h2><span class="label label-success">Physics</span></h2>
+ </div> 
+    <br>
+    </div>
+    
+    <div id="section4">
+4. An aircraft executes a horizontal loop at a speed of 720 km/ph with its wings banked at 15 &deg;. What is the radius of loop?
+<br>
+  <input type="radio" name="q4" value="10 km">10 km<br>
+  <input type="radio" name="q4" value="25 km">25 km<br>
+  <input type="radio" name="q4" value="35 km">35 km<br>
+  <input type="radio" name="q4" value="15 km">15 km<br>
+     <br>
+    </div>
+    <div id="section5">    
+5.  A cubical ice box of thermocole has each side= 30 cm and a thickness of 5 cm. 4kg of ice is put in the box. If outside temp. is 45 &deg;C and      coeff. of thermal conductivity = 0.01 Js<sup>-1</sup>m<sup>-1</sup>C<sup>-1</sup>, Calculate the mass of ice left after 6hrs. Take latent heat    of fusion of ice = 335x10<sup>3</sup>J/kg.
+<br>
+  <input type="radio" name="q5" value="3.687 kg">3.687 kg<br>
+  <input type="radio" name="q5" value="4.687 kg">4.687 kg<br>
+  <input type="radio" name="q5" value="5.687 kg">5.687 kg<br>
+  <input type="radio" name="q5" value="6.687 kg">6.687 kg<br>
+        <br>
+    </div>    
+        
+        <div id="section6">
+6. The escape speed of a projectile on the Earth's surface is 11.2km/s. A body is projected out with thrice this speed. What is the speed of the body far away from the Earth?
+<br>
+  <input type="radio" name="q6" value="11.2 km/s">11.2 km/s<br>
+  <input type="radio" name="q6" value="22.4 km/s">22.4 km/s<br>
+  <input type="radio" name="q6" value="31.7 km/s">31.7 km/s<br>
+  <input type="radio" name="q6" value="44.8 km/s">44.8 km/s<br>
+<br>
+    </div>
+    
+<div class="container">
+    <div id="sectionC">
+  <h2><span class="label label-info">Chemistry</span></h2>
+ </div>
+    <br>
+    </div>
+            
+    <div id="section7">
+7. The rate constant of a reacton is doubled when the temperature is raised from 298k to 308k. Calculate the activation energy?
+<br>
+    <input type="radio" name="q7" value="49.855">49.855 kJ mol<sup>-1</sup><br>
+    <input type="radio" name="q7" value="50.855">50.855 kJ mol<sup>-1</sup><br>
+    <input type="radio" name="q7" value="51.855  kJ mol^-1">51.855 kJ mol<sup>-1</sup><br>
+    <input type="radio" name="q7" value="52.855">52.855 kJ mol<sup>-1</sup><br>
+         <br>
+        </div>
+        
+    <div id="section8">    
+8. Tollen's reagent is used to determine?
+<br>
+  <input type="radio" name="q8" value="aldehydes">aldehydes<br>
+  <input type="radio" name="q8" value="Carboxylic acids">Carboxylic acids<br>
+  <input type="radio" name="q8" value="Halogens">Halogens<br>
+  <input type="radio" name="q8" value="cyanide">cyanide<br>
+       <br>
+        </div>
+        
+    <div id="section9">    
+9. which of the following has highest basic strength?
+<br>
+  <input type="radio" name="q9" value="PH3">PH3<br>
+  <input type="radio" name="q9" value="BiH3">BiH3<br>
+  <input type="radio" name="q9" value="SbH3">SbH3<br>
+  <input type="radio" name="q9" value="NH3">NH3<br>
+        <br>
+        </div>
+    
+        <div id="section10">
+10. which of the following is a neutral oxide?
+<br>
+  <input type="radio" name="q10" value="ZnO">ZnO<br>
+  <input type="radio" name="q10" value="Al2O3">Al2O3<br>
+  <input type="radio" name="q10" value="N2O">N2O<br>
+  <input type="radio" name="q10" value="none">none<br>
+            <br>
+        </div>      
+          
+
+    
+    
+
+<input type="button" value="Get score" class="btn btn-success" onClick="getScore(this.form)">
+    
+ <center>
+<div class="score">
+    
+<p> Score = <strong><input class="bgclr" type="text" size="5" name="percentage" disabled></strong><br><br>    
+    </p>
+    Correct answers:<br>
+    
+<textarea class="bgclr" name="solutions" wrap="virtual" rows="10" cols="30" disabled>
+</textarea>
+</form>
+ </center>    
+    </div>
+    
+    
+    </form>
+
+
+
+      </div>
+    </div>
+    </div>
+
+      
+    
+    </body>
+</html>
