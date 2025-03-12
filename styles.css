@@ -124,4 +124,25 @@ li a:hover {
     color: white;
     overflow :none;
 }
+#section3 .row {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent stacking */
+    justify-content: space-around; /* Distribute elements evenly */
+    align-items: center;
+}
+
+#section3 .col-md-4 {
+    flex: 1; /* Make sure they evenly distribute */
+    max-width: 30%; /* Adjust width */
+    text-align: center; /* Keep text centered */
+}
+
+#section3 img {
+    width: 100%; /* Make images responsive */
+    max-width: 200px; /* Adjust image size */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
 
