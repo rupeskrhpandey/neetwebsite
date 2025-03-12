@@ -124,21 +124,4 @@ li a:hover {
     color: white;
     overflow :none;
 }
-.test-container {
-    display: flex;
-    justify-content: space-around; /* Space items evenly */
-    flex-wrap: wrap; /* Allow wrapping if screen is too small */
-    gap: 20px; /* Add spacing between items */
-    text-align: center;
-}
 
-.test-item {
-    flex: 1; /* Makes each item flexible */
-    max-width: 30%; /* Restricts width */
-}
-
-.test-item img {
-    width: 100%; /* Makes image responsive */
-    max-width: 200px; /* Ensures images are not too big */
-    height: auto;
-}
